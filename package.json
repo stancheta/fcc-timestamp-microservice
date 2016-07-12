@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "a microservice that is a part of FreeCodeCamp's Ziplines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stancheta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
