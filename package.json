@@ -1,14 +1,19 @@
 {
   "name": "timestamp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "a microservice that is a part of FreeCodeCamp's Ziplines",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "mocha test/*.js"
   },
   "author": "stancheta",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
