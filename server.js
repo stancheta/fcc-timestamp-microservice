@@ -5,6 +5,8 @@ var converter = require('./lib/converter');
 var timestamp = require('./lib/timestamp');
 var app = express();
 var getTimeStamp = timestamp.getTimeStamp;
+
+var port = process.env.PORT || 8080;
 app.use('/', express.static('public'));
 
 app.get('/:id', function(req, res) {
@@ -12,6 +14,6 @@ app.get('/:id', function(req, res) {
     res.send(getTimeStamp(req.params.id));
 });
 
-app.listen(8080, function() {
-    console.log('Now listening on port 8080');
+app.listen(port, function() {
+    console.log('Now listening on port ' + port);
 });
