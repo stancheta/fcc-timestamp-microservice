@@ -1,6 +1,5 @@
 # FCC-Timestamp-Microservice
-# Work In Progress
----
+
 ## Install
 In order to use this project, you must install Node.js and Express.js You can acquire
 node through the [Node.js](https://nodejs.org/en/) website. After you have it, you can
@@ -35,6 +34,7 @@ timestamp that I am working with is defined on an int32 base. In this project, I
 1. **User Story:** I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
 2. **User Story:** If it does, it returns both the Unix timestamp and the natural language form of that date.
 3. **User Story:** If it does not contain a date or Unix timestamp, it returns null for those properties.
+4. **personal restriction** All returns must be inclusive to int32 [-2147483648, 2147483647]
 
 ### Technologies used:
 + Node
@@ -43,8 +43,8 @@ timestamp that I am working with is defined on an int32 base. In this project, I
 + Chai
 
 ### Live Demo:
-
-### How it was made:
+https://stancheta-timestamp.herokuapp.com
+<!-- ### How it was made: -->
 
 ### license
 [MIT](https://opensource.org/licenses/MIT)
