@@ -1,4 +1,5 @@
 # FCC-Timestamp-Microservice
+# Work In Progress
 ---
 ## Install
 In order to use this project, you must install Node.js and Express.js You can acquire
@@ -10,7 +11,7 @@ If you would like to try out my test files as well, you can install the rest of 
 with this command: `npm install`.
 
 ## How to Use
-In order to run this program, you can use this command to start the server:
+In order to run this program, you can use this command to start the server on localhost:8080:
 ```
 node start
 
