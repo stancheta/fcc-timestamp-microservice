@@ -25,8 +25,8 @@ describe('Time Converter', function() {
     it('should return 2147472000 when given January 19, 2038', function() {
       assert.equal('2147472000', convertNtoU('January 19, 2038'));
     });
-    it('should return -2147558400 when given December 13, 1901', function() {
-      assert.equal('-2147558400', convertNtoU('December 13, 1901'));
+    it('should return -2147483648 when given December 13, 1901', function() {
+      assert.equal('-2147483648', convertNtoU('December 13, 1901'));
     });
     it('should return 0 when given January 1, 1970', function() {
       assert.equal('0', convertNtoU('January 1, 1970'));
