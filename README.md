@@ -12,13 +12,13 @@ with this command: `npm install`.
 ## How to Use
 In order to run this program, you can use this command to start the server on localhost:8080:
 ```
-node start
+npm start
 
 ```
 Provided that you've installed the devDependencies, you can use this command to
 run all of the tests:
 ```
-node test
+npm test
 ```
 or this command to test files individually, go into the test folder and run:
 ```
